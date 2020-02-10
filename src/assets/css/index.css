@@ -1,0 +1,150 @@
+.van-cell {
+  height: 96px;
+  line-height: 96px;
+  font-size: 28px;
+  padding: 0 30px;
+  box-shadow: 0 0 1px 0 rgba(10, 31, 68, 0.08), 0 1px 1px 0 rgba(10, 31, 68, 0.08);
+}
+.van-cell i {
+  line-height: 120px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.van-cell .select-text {
+  color: #393939;
+  margin-right: 32px;
+}
+.van-toast {
+  /*width: unset;*/
+  padding: 40px;
+  max-width: 50%;
+  min-width: 240px;
+  box-sizing: border-box;
+}
+.van-toast__text {
+  font-size: 28px;
+  line-height: 28px;
+}
+.van-toast--text {
+  padding: 36px 20px;
+}
+.van-toast__icon {
+  font-size: 48px;
+}
+.van-dialog {
+  width: 460px;
+}
+.van-dialog__header {
+  padding: 56px 0 40px 0;
+  font-size: 26px;
+}
+.van-dialog__content {
+  font-size: 24px;
+  padding-bottom: 40px;
+}
+.van-button__text {
+  width: 80px;
+  font-size: 24px;
+}
+.van-dialog__footer {
+  height: 72px;
+}
+.van-dialog__cancel,
+.van-dialog__confirm {
+  height: 68px;
+  line-height: 68px;
+}
+.van-list__finished-text {
+  font-size: 26px;
+}
+.van-loading__text {
+  font-size: 26px;
+}
+.van-tabbar-item--active {
+  color: #C7000B;
+}
+.van-list__finished-text {
+  margin-top: 12px;
+}
+.van-pull-refresh__head {
+  font-size: 26px;
+}
+.van-notice-bar__left-icon {
+  font-size: 26px;
+  padding-right: 10px;
+}
+.van-field__label {
+  width: 124px;
+}
+.van-cell--required::before {
+  font-size: 24px;
+  left: 16px;
+}
+.van-cell__title {
+  text-align: left;
+  min-width: 120px;
+}
+.van-cell__value {
+  min-width: 280px;
+}
+.van-field__word-limit {
+  font-size: 24px;
+}
+.van-cell__right-icon {
+  line-height: 94px !important;
+}
+.van-checkbox__icon {
+  font-size: 28px;
+}
+.van-collapse-item__content {
+  padding: 0;
+}
+.van-notice-bar__wrap {
+  height: 28px;
+}
+.van-list__loading {
+  display: none;
+}
+.van-tab,
+.van-tabs__nav {
+  height: 60px;
+  line-height: 60px;
+}
+.van-tabs--line .van-tabs__wrap {
+  height: 60px;
+}
+.van-ellipsis {
+  font-size: 28px;
+}
+.van-tabs__line {
+  width: 80px !important;
+  background-color: #C7000B;
+}
+.van-tag--danger.van-tag--plain {
+  padding: 8px 10px;
+  font-size: 22px;
+  color: #C7000B;
+}
+.van-step--horizontal .van-step__title {
+  font-size: 24px;
+  line-height: 48px;
+}
+.van-step--horizontal .van-step__circle-container {
+  top: 50px;
+}
+.van-steps--horizontal .van-steps__items {
+  padding: 24px 0;
+}
+.van-step--horizontal .van-step__icon {
+  font-size: 20px;
+}
+.van-step--horizontal .van-step__line {
+  top: 50px;
+}
+.van-step__circle {
+  height: 12px;
+  width: 12px;
+}
+.space-20 {
+  margin-bottom: 20px;
+}

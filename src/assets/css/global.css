@@ -1,0 +1,24 @@
+.van-tabbar-item--active {
+  color: #C7000B;
+}
+.van-tab,
+.van-tabs__nav {
+  height: 60px;
+  line-height: 60px;
+}
+.van-tabs--line .van-tabs__wrap {
+  height: 60px;
+}
+.van-ellipsis {
+  font-size: 28px;
+}
+.van-tabs__line {
+  width: 80px !important;
+  background-color: #C7000B;
+}
+.space-20 {
+  margin-bottom: 20px;
+}
+.shadow {
+  box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.07);
+}
