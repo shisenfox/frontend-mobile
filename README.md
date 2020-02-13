@@ -9,10 +9,9 @@
 ## 环境搭建
 ```bash
 # 克隆版本库
-git clone git@83.249.172.12:union/techfrontcode.git
-
+git clone https://github.com/tech-lu/frontend-mobile.git
 # 安装依赖包
-cd techfrontcode/laborUnion
+cd frontend-mobile
 npm install
 
 # 以开发模式运行
