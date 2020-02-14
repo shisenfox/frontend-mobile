@@ -19,7 +19,7 @@ let myApi = {
    * 接口含义：获取用户信息
    */
   getInfo: function (param) {
-    return get('/user/resources', param)
+    return get('/person/info', param)
   },
   /**
    * 接口含义：获取盐值

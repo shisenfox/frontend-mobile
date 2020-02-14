@@ -17,7 +17,7 @@ module.exports = {
     open: true,
     proxy: {
       '/api': {
-        target: 'http://83.249.172.60/mock/186/api',
+        target: 'http://39.99.188.76:3000/mock/17/api',
         changeOrigin: true,
         pathRewrite: {
           '^/api': '/'
