@@ -91,9 +91,13 @@ let myApi = {
   getAssociations: function(param) {
     return get('/mySociety/list', param)
   },
-  //加入、退出社团
+  //加入社团
   joinAssociation: function(param) {
-    return get('/home/association/join', param)
+    return post('/home/association/join', param)
+  },
+  //退出社团
+  quitAssociation: function(param) {
+    return del('/home/association/quit', param)
   },
   //关注的社团
   getAttentionAssociation: function(param) {

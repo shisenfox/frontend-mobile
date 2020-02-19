@@ -176,7 +176,6 @@
                         }).then(() => {
                             let params={
                                 id:this.associationId,
-                                type:0,
                                 userName:document.cookie.substring(9)
                             }
                             console.log(params)
@@ -211,11 +210,10 @@
                         }).then(() => {
                             let params={
                                 id:this.associationId,
-                                type:1,
                                 userName:document.cookie.substring(9)
                             }
                             console.log(params)
-                            this.$api.myApi.joinAssociation(params)
+                            this.$api.myApi.quitAssociation(params)
                                 .then((res) => {
                                     if (res.retCode === '0') {
                                         Dialog.confirm({

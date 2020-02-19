@@ -129,7 +129,6 @@
 <style lang="less" scoped>
     .box{
         background:#fff;
-        border:1px solid;
     }
     .swipe{
         width:90%;
@@ -144,7 +143,6 @@
         margin-left:5%;
         width:90%;
         height:30px;
-        border:1px solid;
     }
     .sidebar /deep/ .van-sidebar-item{
         width:80px;
