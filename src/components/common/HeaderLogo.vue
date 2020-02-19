@@ -14,18 +14,18 @@ export default {
 
 <style scoped lang="less">
 .nav-logo {
-  height: 88px;
+  height: 44px;
   .header-logo {
     position: fixed;
     width: 100%;
-    height: 88px;
+    height: 44px;
     background-color: #fff;
     z-index: 100;
     img {
-      height: 48px;
+      height: 24px;
       position: absolute;
-      top: 20px;
-      left: 30px;
+      top: 10px;
+      left: 15px;
     }
   }
 }

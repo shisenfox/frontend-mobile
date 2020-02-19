@@ -68,6 +68,42 @@ let myApi = {
   getActivityItemInfo: function(param) {
     return get('/activity/item/list', param)
   },
+  /**
+   * 接口含义：首页
+   */
+  //banner
+  getBanner: function(param) {
+    return get('/home/banner', param)
+  },
+  //热门社团
+  getHotAssociation: function(param) {
+    return get('/home/association', param)
+  },
+  //社团列表
+  getAssociationList: function(param) {
+    return get('/home/association/list', param)
+  },
+  //社团详情
+  getAssociationDetail: function(param) {
+    return get('/home/association/detail', param)
+  },
+  //我的社团
+  getAssociations: function(param) {
+    return get('/mySociety/list', param)
+  },
+  //加入、退出社团
+  joinAssociation: function(param) {
+    return get('/home/association/join', param)
+  },
+  //关注的社团
+  getAttentionAssociation: function(param) {
+    return get('/myAttention/LeagueList', param)
+  },
+  
+  //工会活动
+  getUnionActivity: function(param) {
+    return get('/home/union', param)
+  },
 }
 
 export default {

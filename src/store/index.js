@@ -5,9 +5,16 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    navBarFlag:true,
   },
   mutations: {
+    changeFoot(state,sta){
+      state.navBarFlag=sta;
+    }
   },
   actions: {
+    changeNavs(ctx,sta){
+      ctx.commit("changeFoot",sta)
+    }	
   },
 })

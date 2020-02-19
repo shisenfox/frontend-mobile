@@ -8,6 +8,7 @@ import Vant from 'vant'
 import 'vant/lib/index.css'
 import 'vant/lib/icon/local.css'
 import 'amfe-flexible/index.js'
+import 'lib-flexible'
 
 import './assets/css/index.less'
 
